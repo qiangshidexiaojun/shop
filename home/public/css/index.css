@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+    text-decoration: none;
+}
+
+.main {
+    padding: 10px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background: #272822;
+    line-height: 60px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+    float: left;
+}
+
+.headerLeft {
+    float: left;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.headerRight {
+    float: right;
+    margin-right: 15px;
+}
+
+.headerRight a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.headerRight a:hover {
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+session {
+    width: 100%;
+}
+
+.advert, .advert img {
+    width: 100%;
+    height: 200px;
+}
+
+.floor {
+    width: 100%;
+    background: #eee;
+    margin-bottom: 15px;
+}
+
+.floorHeader {
+    height: 30px;
+    background: #272822;
+    padding: 0 15px 0 15px;
+    line-height: 30px;
+    color: #ccc;
+    overflow: hidden;
+}
+
+.floorHeader .left {
+    float: left;
+    height: 100%;
+    line-height: 27px;
+}
+
+.floorHeader .right {
+    float: right;
+    height: 30px;
+    line-height: 27px;
+}
+
+.floorHeader .right span {
+    margin-left: 15px;
+}
+
+.floorHeader a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.floorHeader a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.floorFooter {
+    overflow: hidden;
+    width: 100%;
+}
+
+.floorFooter .shop .shopMore {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.shop {
+    width: 200px;
+    float: left;
+    margin: 10px 0 10px 70px;
+    padding: 5px;
+    border: 5px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #ccc;
+}
+
+.shopInfo {
+    padding: 5px;
+}
+
+.shopName {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.shopName a:hover,.shopPrice a:hover{
+    text-decoration: underline;
+}
+
+.shopPrice a{
+    color: red;
+    font-size: 16px;
+}
+
+.tablist {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.tablist th, .tablist td {
+    padding: 10px 0;
+    background: #fff;
+}
+
+.tablist td {
+    border-top: 1px dashed #ccc;
+}
+
+.tablist th {
+   border: 1px dashed #ccc;
+}
+
+.comment {
+    margin: 15px 0px;
+    overflow: hidden;
+}
+
+.comment .left {
+    height: 125px;
+    float: left;
+    width: 10%;
+    text-align: center;
+    border-right: 5px solid #ccc;
+    box-sizing: border-box;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.comment .left .header{
+    width: 100px;
+    height: 100px;
+}
+
+.comment .right {
+    width: 90%;
+    height: 120px;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.comment .right .commenttime{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.cartreduce, .cartadd {
+    background: #e43934;
+    display: inline-block;
+    width: 15px;
+    margin: 5px;
+    height: 20px;
+    line-height: 19px;
+    color: #000;
+    box-shadow: 1px 1px 1px 1px #e0e0e0;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.cartreduce:hover, .cartadd:hover {
+    color: #fff;
+    background: red;
+}
+
+.cartDel, .submit, .useraddContent input[type=submit] {
+    background: #e43934;
+    padding: 5px 15px;
+    color: #000;
+    box-shadow: 1px 1px 1px 1px #e0e0e0;
+    border-radius: 5px;
+}
+
+.useraddContent input[type=submit] {
+    border: none;
+    margin-top: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.cartDel:hover, .submit:hover, .useraddContent input[type=submit]:hover {
+    color: #fff;
+    background: red;
+    box-shadow: 1px 1px 2px 2px #e43934;
+}
+
+.submit {
+    border: none;
+    outline: none;
+}
+
+.bottom {
+    padding: 5px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.touch input {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.touch .indent_id {
+    width: 15px;
+    height: 15px;
+}
+
+.person {
+    padding: 10px;
+}
+
+.personLeft {
+    border: 1px dashed #ccc;
+    width: 15%;
+    height: 300px;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+.person a {
+    color: #000;
+}
+
+.person a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.personRight {
+    border: 1px dashed #ccc;
+    width: 83%;
+    /*height: 300px;*/
+    float: right;
+    padding: 15px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.personRight h3 {
+    margin-bottom: 15px;
+}
+
+.personRight img {
+    width: 100%;
+}
+
+.personRight table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.personRight table th, td {
+    padding: 5px 0;
+    text-align: center;
+    border: 1px dashed #ccc;
+}
+
+.useraddImg {
+    float: left;
+    width: 78%;
+    height: 100%;
+}
+
+.useraddImg img, .useraddImg a {
+    display: inline-block;
+    height: 100%;
+}
+
+.useraddContent {
+    float: right;
+    width: 20%;
+}
+
+.useraddContent input[type=text] {
+    width: 100%;
+    height: 30px;
+}
+
+.useraddContent p:nth-last-child(1) {
+    text-align: center;
+}
+
+.login {
+    overflow: hidden;
+    background: #EDEEF0;
+    position: relative;
+}
+
+.loginadvert {
+    float: left;
+}
+
+.mess {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -165px 0 0 0px;
+    background: #fff;
+    width: 500px;
+    height: 330px;
+    float: right;
+}
+
+.between {
+    margin-top: 20px;
+    padding: 10px 100px 10px 100px;
+}
+
+.mess input, .reg input {
+    width: 300px;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    border: 1px solid #ccc;
+    color: #000;
+}
+
+.mess input:nth-child(1), .reg input:nth-child(1) {
+    background: url("../img/ihead.png") 5px -2px no-repeat;
+    width: 270px;
+    padding-left: 30px;
+}
+
+.mess input:nth-child(2), .reg input:nth-child(2), .reg input:nth-child(3) {
+    background: url("../img/ihead.png") 5px -37px no-repeat;
+    width: 270px;
+    padding-left: 30px;
+}
+
+.interface .mess input {
+    width: 300px;
+}
+
+.mess input:nth-child(3), .reg input:nth-last-child(1) {
+    color: #e0e0e0;
+    background: #74B96E;
+    border: none;
+}
+
+.mess input:nth-child(3):hover, .reg input:nth-last-child(1):hover {
+    background: #39A030;
+}
+
+.btm {
+    width: 200px;
+    text-align: left;
+    float: left;
+}
+
+.mess .btm input {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btm input, label, span, a {
+    color: #999;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.btm a:hover, label:hover, .register a:hover {
+    cursor: pointer;
+    color: #666;
+}
+
+.register {
+    float: right;
+    text-align: right;
+    width: 100px;
+    height: 37px;
+    line-height: 35px;
+}
+
+.reg input:nth-child(4) {
+    background: url("../img/ihead.png") 5px -100px no-repeat;
+    width: 83px;
+    padding-left: 30px;
+}
+
+.vcode, .reg input:nth-child(4) {
+    vertical-align: middle;
+}
+
+.reg {
+    position: absolute;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 400px;
+    margin: -165px 0 0 0px;
+    z-index: 9999;
+}
+
+.reg .regbtm {
+    width: 100%;
+    height: 40px;
+    background: #e0e0e0;
+    position: absolute;
+    bottom: 0;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.regrep:hover {
+    color: red;
+}
+
+.split {
+    width: 100%;
+    height: 5px;
+}
+
+footer {
+    background: #272822;
+    width: 100%;
+    height: 60px;
+}
+
+footer ul {
+    line-height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 330px;
+}
+
+footer ul li {
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+}
+
+footer ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.cartNum{
+    width: 40px;
+    text-align: center;
+}
+
+.reg i{
+    position: absolute;
+    font-style: normal;
+    color: green;
+    font-size: 12px;
+    display: none;
+    text-align: center;
+    width: 80px;
+}
+
+.reg i:nth-child(1){
+    top: 50px;
+    right: 10px;
+}
+
+.reg i:nth-child(2){
+    top: 105px;
+    right: 10px;
+}
+
+
+.reg i:nth-child(3){
+    top: 170px;
+    right: 10px;
+}
+
+.reg i:nth-child(4){
+    top: 240px;
+    right: 10px;
+}
+
+.person .personRight .cartDel:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.editHover:hover{
+    box-shadow: none;
+    color: #000;
+    text-decoration: none;
+}

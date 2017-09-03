@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #e0e0e0;
+}
+
+.mess {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -165px 0 0 -250px;
+    background: #fff;
+    width: 500px;
+    height: 330px;
+    float: right;
+}
+
+.between {
+    margin-top: 20px;
+    padding: 10px 100px 10px 100px;
+}
+
+.mess input, .reg input {
+    width: 300px;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    border: 1px solid #ccc;
+    color: #000;
+}
+
+.mess input:nth-child(1), .reg input:nth-child(1) {
+    background: url("../img/ihead.png") 5px -2px no-repeat;
+    width: 270px;
+    padding-left: 30px;
+}
+
+.mess input:nth-child(2), .reg input:nth-child(2), .reg input:nth-child(3) {
+    background: url("../img/ihead.png") 5px -37px no-repeat;
+    width: 270px;
+    padding-left: 30px;
+}
+
+.mess input:nth-child(3), .reg input:nth-last-child(1) {
+    color: #e0e0e0;
+    background: #74B96E;
+    border: none;
+}
+
+.mess input:nth-child(3):hover, .reg input:nth-last-child(1):hover {
+    background: #39A030;
+}
+
+.btm {
+    width: 200px;
+    text-align: left;
+    float: left;
+}
+
+.mess .btm input {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btm input, label, span, a {
+    color: #999;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.btm a:hover, label:hover {
+    cursor: pointer;
+    color: #666;
+}
+
+.vcode, .reg input:nth-child(4) {
+    vertical-align: middle;
+}
+
+.regrep:hover {
+    color: red;
+}
+
+.top {
+    width: 100%;
+    height: 30px;
+}
+
+.top h3 {
+    float: left;
+    line-height: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #39A030;
+}
